@@ -27,7 +27,7 @@ const Education = () => {
                     </div>
                     <div id="edu" className="mx-auto rounded bg-white">
                         <img className="img-fluid mx-auto lg:mt-5 mt-5 mb-2" width="70" src={img2} alt="" />
-                        <h1 className="font-bold">UNILORIN</h1>
+                        <h1 className="font-bold">University Of Ilorin</h1>
                         <p className="font-bold">BSc PLANT BIOLOGY</p>
                         <p className="font-bold">2012 - 2017</p>
                     </div>
