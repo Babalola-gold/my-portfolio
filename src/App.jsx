@@ -20,13 +20,13 @@ function App() {
       <Route path="/" element={<Layout/>}>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home/>} />
-        </Route>
-
-        <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/education" element={<Education />} />
+        </Route>
+
       </Routes>
     </>
   )
